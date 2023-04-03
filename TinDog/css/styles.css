@@ -1,0 +1,171 @@
+/*First section: title*/
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;  
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/*navbar (First Section)*/
+.navbar-expand-lg {
+    padding-bottom: 4.5rem;
+}
+
+.brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/*download-buttons (First Section)*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*title image (First Section)*/
+
+.title-img {
+    width: 350px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/*Second section: features*/
+
+#features {
+    padding: 7% 15%;
+    text-align:center;
+    background-color:#fff;
+    position: relative;
+}
+
+.features-icon {
+    color: #ef8172;
+    padding-bottom: 1.5rem; 
+}
+
+.features-icon:hover {
+    color:#ff4c68
+}
+
+.features-paragraph {
+    width: 70%;
+    margin: 0 auto;
+    color: #8f8f8f; 
+}
+
+/*Third section: testimonials*/
+
+#testimonials {
+    text-align: center;
+    background-color:#ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 20%;
+}
+
+/*Fourth section: press*/
+
+#press {
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Fifth section: pricing*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/*Fifth section: call to action*/
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 25%;
+    text-align: center;
+}
+
+/*Sixth section: footer*/
+
+#footer {
+    padding: 5%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.footer-icon{
+    padding: 0 0.5% 1%;
+}
+
+.copyright {
+    color: #8f8f8f;
+}
+
+/*Website responsive für tablet und mobile phone machen*/
+
+@media (max-width: 1155px) {
+
+    #title {
+        text-align:center;
+    }
+
+   .title-img {
+    position: static;
+    transform: rotate(0);
+   }
+}
